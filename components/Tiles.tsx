@@ -7,7 +7,7 @@ import spendingTile from "../public/hero/Tile5.svg";
 
 const Tiles = () => {
   return (
-    <div className="relative mx-auto mt-16 grid grid-cols-1 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12 gap-6 max-w-[1400px]">
+    <div className="relative mx-auto mt-16 grid grid-cols-2 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12 gap-6 max-w-[1400px]">
       {/* Profile Tile */}
       <div className="row-span-2 sm:col-span-6 md:col-span-3 lg:col-span-3">
         <Image
