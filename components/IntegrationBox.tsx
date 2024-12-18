@@ -7,16 +7,9 @@ interface IntegrationBoxProps {
 
 const IntegrationBox = ({ src, alt }: IntegrationBoxProps) => {
   return (
-    <>
-      <div className="flex flex-col gap-10">
-        <div className="bg-white p-8 w-32 h-32 border border-gray-300 rounded-3xl flex items-center justify-center">
-          <Image src={src} alt={alt} className="" />
-        </div>
-        <div className="bg-white p-8 w-32 h-32 border border-gray-300 rounded-3xl flex items-center justify-center">
-          <Image src={src} alt={alt} className="" />
-        </div>
-      </div>
-    </>
+    <div className="bg-white p-8 w-32 h-32 border border-gray-300 rounded-3xl flex items-center justify-center shadow-sm">
+      <Image src={src} alt={alt} className="w-12 h-12" />
+    </div>
   );
 };
 

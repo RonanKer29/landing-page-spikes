@@ -6,27 +6,48 @@ import zapier from "../public/integration/zapier.svg";
 import notion from "../public/integration/notion.svg";
 
 const Integration = () => {
-  const integrations = [
-    { src: evernote, alt: "Evernote" },
-    { src: figma, alt: "figma" },
-    { src: slack, alt: "slack" },
-    { src: zapier, alt: "zapier" },
+  const integrationsRow1 = [
     { src: notion, alt: "Notion" },
+    { src: slack, alt: "Slack" },
+    { src: zapier, alt: "Zapier" },
+    { src: evernote, alt: "Evernote" },
+    { src: figma, alt: "Figma" },
+  ];
+
+  const integrationsRow2 = [
+    { src: evernote, alt: "Evernote" },
+    { src: figma, alt: "Figma" },
   ];
 
   return (
-    <div className="flex mt-36 mb-36 w-[1400px] mx-auto gap-12">
-      <div className="flex space-x-12  ">
-        {integrations.map((integration, index) => (
-          <IntegrationBox
-            key={index}
-            src={integration.src}
-            alt={integration.alt}
-          />
-        ))}
+    <div className="flex items-center justify-between w-[1500px] mx-auto mt-24 mb-24">
+      {/* Left Section: Two rows of SVGs */}
+
+      <div className="flex flex-col ">
+        <div className="flex space-x-8">
+          {integrationsRow1.map((integration, index) => (
+            <IntegrationBox
+              key={index}
+              src={integration.src}
+              alt={integration.alt}
+            />
+          ))}
+        </div>
+
+        <div className="flex space-x-8">
+          {integrationsRow2.map((integration, index) => (
+            <IntegrationBox
+              key={index}
+              src={integration.src}
+              alt={integration.alt}
+            />
+          ))}
+        </div>
       </div>
-      <div className="flex flex-col gap-4 justify-center">
-        <h1 className="font-bold font-dmsans text-5xl text-dark">
+
+      {/* Right Section: Title and Description */}
+      <div className="flex flex-col space-y-6">
+        <h1 className="font-bold font-dmsans text-5xl text-dark leading-tight">
           Seamless <br />
           integration <br />
           with best apps
