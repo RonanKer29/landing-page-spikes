@@ -15,8 +15,8 @@ const dmsans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Challenge Spikes",
-  description: "Challenge Spikes by @0xEzis",
+  title: "Landing Page Spikes",
+  description: "Landing Page Spikes by RonanKer",
 };
 
 export default function RootLayout({
