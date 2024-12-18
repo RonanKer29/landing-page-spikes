@@ -35,6 +35,11 @@ const Growth = () => {
           </div>
         ))}
       </div>
+      <button>
+        <span className="text-white bg-orange py-3 px-6 rounded-3xl text-lg font-semibold">
+          Expore our way ➝
+        </span>
+      </button>
     </div>
   );
 };
