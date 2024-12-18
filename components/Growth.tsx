@@ -14,11 +14,11 @@ const Growth = () => {
       <h1 className="text-5xl font-bold leading-tight text-dark font-dmsans w-[1200px]">
         Turn your growth into Squaree
       </h1>
-      <h2 className="text-lg text-darkGray w-[900px] text-center font-manrope font-medium leading-[1.65]">
+      <p className="text-lg text-darkGray w-[900px] text-center font-manrope font-semibold leading-[1.65]">
         The expectation that productivity should always lead to tangible results
         or accomplishments & notion that certain types of work or activities are
         more valuable or productive than others.
-      </h2>
+      </p>
       <Image src={graph} alt="graph" width={374} height={157} />
       <div className="flex w-[1200px] justify-between">
         {statistics.map((statistic, index) => (

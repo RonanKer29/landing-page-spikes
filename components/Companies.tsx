@@ -39,6 +39,27 @@ const Companies = () => {
               className="w-[150px] h-auto object-contain"
             />
           </div>
+          <div className="flex items-center justify-center mx-10">
+            <Image
+              src={fluid}
+              alt="fluid"
+              className="w-[150px] h-auto object-contain"
+            />
+          </div>
+          <div className="flex items-center justify-center mx-10">
+            <Image
+              src={hikkeno}
+              alt="hikkeno"
+              className="w-[150px] h-auto object-contain"
+            />
+          </div>
+          <div className="flex items-center justify-center mx-10">
+            <Image
+              src={bubble}
+              alt="bubble"
+              className="w-[150px] h-auto object-contain"
+            />
+          </div>
         </Marquee>
       </div>
     </div>
