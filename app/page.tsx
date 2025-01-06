@@ -1,3 +1,4 @@
+import Billing from "@/components/Billing";
 import Companies from "@/components/Companies";
 import Growth from "@/components/Growth";
 import Header from "@/components/Header";
@@ -18,6 +19,7 @@ export default function Home() {
       <Productivity />
       <Integration />
       <Testimonials />
+      <Billing />
     </main>
   );
 }
