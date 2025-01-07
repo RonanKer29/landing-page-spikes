@@ -8,7 +8,7 @@ const Billing = () => {
           <h1 className="font-bold text-5xl text-dark font-dmsans">
             Billed Monthly
           </h1>
-          <Switch className="peer focus-visible:ring-orange data-[state=checked]:bg-orange data-[state=unchecked]:bg-gray-300" />
+          <Switch className="peer h-[50px] w-[84px] focus-visible:ring-orange data-[state=checked]:bg-orange data-[state=unchecked]:bg-gray-300" />
           <h1 className="font-manrope text-xl text-center text-darkGray">
             Billed Yearly (save 15%)
           </h1>

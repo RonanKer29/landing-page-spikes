@@ -80,3 +80,40 @@ export const userTestimonials: {
     avatar: "/testimonials/profile4.png",
   },
 ];
+
+export const billingFeatures: {
+  subscription: string;
+  price: string;
+  description: string;
+  features: string[];
+  buttonText: string;
+}[] = [
+  {
+    subscription: "Free",
+    price: "$0",
+    description:
+      "Description of the tier list will go here, copy should be concise and impactful.",
+    features: [
+      "Access to All Features",
+      "20% discount on backorders",
+      "Domain Name Appraisal ",
+      "10 Social Profiles ",
+    ],
+    buttonText: "Try for Free",
+  },
+  {
+    subscription: "Pro",
+    price: "$12/month",
+    description:
+      "Description of the tier list will go here, copy should be concise and impactful.",
+    features: [
+      "Access to All Features",
+      "20% discount on backorders",
+      "Domain Name Appraisal ",
+      "10 Social Profiles ",
+      "Calendar View",
+      "24/7 Support",
+    ],
+    buttonText: "Subscribe Now",
+  },
+];
