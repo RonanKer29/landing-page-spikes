@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 const Testimonials = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 mt-24 mb-24">
+      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 mt-24 md:mb-24">
         <div className="text-center space-y-6">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-dark font-dmsans max-w-4xl mx-auto">
             What squaree users say

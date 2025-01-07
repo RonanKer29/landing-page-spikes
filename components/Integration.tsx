@@ -20,11 +20,10 @@ const Integration = () => {
   ];
 
   return (
-    <div className="flex items-center justify-between w-[1500px] mx-auto mt-24 mb-24">
+    <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between w-full lg:w-[1500px] mx-auto mt-24 mb-24 px-4 lg:px-0 space-y-12 lg:space-y-0">
       {/* Left Section: Two rows of SVGs */}
-
-      <div className="flex flex-col ">
-        <div className="flex space-x-8">
+      <div className="flex flex-col space-y-8 lg:space-y-4">
+        <div className="grid grid-cols-5 md:grid-cols-5 lg:flex lg:space-x-8 gap-4 lg:gap-0">
           {integrationsRow1.map((integration, index) => (
             <IntegrationBox
               key={index}
@@ -34,7 +33,7 @@ const Integration = () => {
           ))}
         </div>
 
-        <div className="flex space-x-8">
+        <div className="hidden grid grid-cols-2 md:grid-cols-3 lg:flex lg:space-x-8 gap-4 lg:gap-0">
           {integrationsRow2.map((integration, index) => (
             <IntegrationBox
               key={index}
@@ -46,13 +45,13 @@ const Integration = () => {
       </div>
 
       {/* Right Section: Title and Description */}
-      <div className="flex flex-col space-y-6">
-        <h1 className="font-bold font-dmsans text-5xl text-dark leading-tight">
+      <div className="flex flex-col space-y-6 text-center lg:text-left">
+        <h1 className="font-bold font-dmsans text-3xl md:text-4xl lg:text-5xl text-dark leading-tight">
           Seamless <br />
           integration <br />
           with best apps
         </h1>
-        <p className="font-manrope text-lg text-darkGray font-semibold">
+        <p className="font-manrope text-base md:text-lg text-darkGray font-semibold">
           What ever you use, we integrate with the best of best
         </p>
       </div>
