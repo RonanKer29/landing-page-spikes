@@ -1,5 +1,6 @@
 import Billing from "@/components/Billing";
 import Companies from "@/components/Companies";
+import Footer from "@/components/Footer";
 import Growth from "@/components/Growth";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -20,6 +21,7 @@ export default function Home() {
       <Integration />
       <Testimonials />
       <Billing />
+      <Footer />
     </main>
   );
 }

@@ -13,6 +13,7 @@ const config: Config = {
         dark: "#242424",
         darkGray: "#626262",
         orange: "#F2B53C",
+        footer: "#F7F7F7",
       },
       borderRadius: {
         lg: "var(--radius)",
